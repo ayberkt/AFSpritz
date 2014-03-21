@@ -152,7 +152,7 @@
     if ([self status:AFSpritzStatusReading]) {
         _current = 0;
     } else {
-        NSLog(@"AFSpritz message: Reading can only be restarted when it is active");
+        NSLog(@"AFSpritz message: Reading can only be restarted when the reading is active");
     }
 }
 
