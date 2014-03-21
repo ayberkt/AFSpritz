@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "AFSpritz"
-  s.version      = "1.3"
-  s.summary      = "A complete Spritz SDK for iOS"
+  s.version      = "1.3.1"
+  s.summary      = "A complete ,ligthweight Spritz SDK for iOS"
 
   s.description  = "AFSpritz is a great SDK for Spritz, a brand new revolutionary reading method"
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/AlvaroFranco/AFSpritz.git", :tag => 'v1.3' }
+  s.source       = { :git => "https://github.com/AlvaroFranco/AFSpritz.git", :tag => 'v1.3.1' }
 
   s.source_files  = 'Classes/'
 

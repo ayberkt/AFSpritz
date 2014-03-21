@@ -9,7 +9,7 @@ A complete, lightweight Spritz SDK for iOS
 
 AFSpritz is on [CocoaPods](http://cocoapods.org), so you can get the pod by adding this line to your Podfile
 
-    pod 'AFSpritz', '~> 1.3'
+    pod 'AFSpritz', '~> 1.3.1'
 
 If not, just import these files to your project:
 
