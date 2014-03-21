@@ -1,7 +1,7 @@
 AFSpritz
 =======================
 
-A complete Spritz SDK for iOS
+A complete, lightweight Spritz SDK for iOS
 
 ![alt text](https://raw.github.com/AlvaroFranco/AFSpritz/master/example.gif "Example")
 
@@ -46,7 +46,7 @@ Then, call the block that will update the Spritz label
             NSLog(@"Finished!");
         }
     }];
-	
+
 ###Checking the status
 
 	typedef NS_ENUM(int, AFSpritzStatus) {
@@ -70,14 +70,15 @@ Example:
 		// The current status is finished
 	}
 
-###Pausing and resuming
+###Pausing, resuming and restarting
 
-Now you can pause and resume your reading just calling these two methods:
+Now you can pause, resume and restart your reading just calling these three methods:
 
 	[manager pauseReading];
 
 	[manager resumeReading];
-	
+
+    [manager restartReading];
 
 ##AFSpritzLabel API
 
@@ -96,13 +97,13 @@ You can customize many properties from AFSpritzLabel, such as:
 
 ##Wishlist
 
-1. ~~Customize speed throught the number of words per minute.~~ 
+1. ~~Customize speed throught the number of words per minute.~~
 
-2. ~~Stop and resume the reading~~.
+2. ~~Stop and resume the reading.~~
 
 3. ~~Add a little stop when there's a stop on the text (. … : , ! ?).~~
 
-4. Restart the reading.
+4. ~~Restart the reading.~~ (Thanks [Ayberk](https://github.com/ayberkt)!)
 
 ##Author
 
