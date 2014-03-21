@@ -44,4 +44,7 @@ typedef void (^statusBlock)(AFSpritzWords *word, BOOL finished);
 // Resumes the reading if it has been previously paused
 -(void)resumeReading;
 
+// Restarts the reading if it has been started
+-(void)restartReading;
+
 @end
