@@ -147,6 +147,15 @@
     }
 }
 
+-(void)restartReading {
+    
+    if ([self status:AFSpritzStatusReading]) {
+        _current = 0;
+    } else {
+        NSLog(@"AFSpritz message: Reading can only be restarted when it is active");
+    }
+}
+
 -(BOOL)status:(AFSpritzStatus)spritzStatus {
     
     if (spritzStatus == _status) {

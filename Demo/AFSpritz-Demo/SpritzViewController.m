@@ -14,6 +14,7 @@
 @property (nonatomic, strong) IBOutlet UIButton *startButton;
 @property (nonatomic, strong) IBOutlet UIButton *pauseButton;
 @property (nonatomic, strong) IBOutlet UIButton *resumeButton;
+@property (nonatomic, strong) IBOutlet UIButton *restartButton;
 @property (nonatomic, strong) IBOutlet UIButton *closeButton;
 
 @property (nonatomic, strong) AFSpritzManager *manager;
@@ -64,6 +65,7 @@
     
     [_pauseButton addTarget:_manager action:@selector(pauseReading) forControlEvents:UIControlEventTouchUpInside];
     [_resumeButton addTarget:_manager action:@selector(resumeReading) forControlEvents:UIControlEventTouchUpInside];
+    [_restartButton addTarget:_manager action:@selector(restartReading) forControlEvents:UIControlEventTouchUpInside];
 }
 
 -(void)didReceiveMemoryWarning {
